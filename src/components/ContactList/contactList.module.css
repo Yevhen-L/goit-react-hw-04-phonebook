@@ -1,0 +1,28 @@
+.contactslistItem {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  font-weight: normal;
+}
+.contactslistBtn:hover + .contactslistItem,
+.contactslistBtn:focus + .contactslistItem {
+  font-weight: bold; /* Устанавливаем жирный шрифт для .contactslistItem при наведении или фокусировке на .contactslistBtn */
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 0;
+}
+.contactslistBtn {
+  border-radius: 3px;
+  background-color: aliceblue;
+  transition: background-color 0.3s;
+}
+
+.contactslistBtn:hover,
+.contactslistBtn:focus {
+  background-color: rgb(252, 202, 205);
+}

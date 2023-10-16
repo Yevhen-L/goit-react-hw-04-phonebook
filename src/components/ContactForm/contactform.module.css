@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  max-width: 240px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contactsformtBtn {
+  border-radius: 3px;
+  background-color: aliceblue;
+  transition: background-color 0.3s;
+}
+
+.contactsformtBtn:hover,
+.contactsformtBtn:focus {
+  background-color: rgb(252, 202, 205);
+}
