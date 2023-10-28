@@ -1,3 +1,4 @@
+@@ -1,53 +0,0 @@
 import React, { Component } from 'react';
 import css from './contactform.module.css';
 
